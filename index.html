@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My  Portfolio</title>
+  <link rel="icon" href="./icons8-code-16.png" type="image/png">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+
+<body>
+  <div class="container">
+
+    <header class="menu">
+      <h1 class="neon">My Portfolio</h1>
+
+    </header>
+
+    <nav class="navigation">
+      <div class="item">
+        <a href="#inicio-go">Start</a>
+      </div>
+      <div class="item">
+        <a href="#h1sobre">About me</a>
+      </div>
+      <div class="item">
+        <a href="#h1projetos">projects</a>
+      </div>
+      <div class="item">
+        <a href="#h1habilidades">Skills</a>
+      </div>
+
+      <div class="checkbox-wrapper-57" id="checkbox">
+        <label class="botao">
+          <input type="checkbox">
+          <div class="checkmark">☀</div>
+        </label>
+      </div>
+
+    </nav>
+
+    <main class="content">
+      <span id="inicio-go">.</span>
+      <section class="inicio tamanho init-hidden">
+        <h1 class="nome">Solomon</h1>
+        <h1 class="nome1">Kaleab</h1>
+        <img src="carbon.png" id="carbon">
+      </section>
+      
+      <h1 id="h1sobre">About Me</h1>
+      <section class="sobre tamanho init-hidden">
+
+
+
+        <article class="sobreMim">
+          <h1>Hello, world!</h1>
+           <h2>Full-Stack Developer</h2> 
+           <p>My name is Kaleab Solomon, I'm from Addis Abeba Ethiopia, and I'm studying Software Engineering at Dire-Dawa university.</p> 
+           <p>At the beginning of the course, I developed a preference for full-stack development,
+             so I started studying and
+             taking courses in the field, deepening my knowledge more and more each day!</p>
+           <p>Since then, I realized the need to create a portfolio, no matter how basic it may be!</p>
+            <p>Ever since I started programming in college, I fell in love with the field, and now it's all I think about. When we work or study something we love, 
+            everything becomes better, right?</p>
+
+
+          <button id="botaoin"><a target="_blank"
+              href="http://linkedin.com/in/kaleab-s
+              olomon-89ba6a32b">Linkedin<img
+                src="in.png"></a></button>
+          <!-- <button><a href="Fábio_Júnior_Curriculo.pdf" download="Currículo_fábio_júnior">Currículo<img
+                src="download.png"></a></button> -->
+          <button onclick="copyToClipboard('kaleab24gebreselassie@gmail.com')"><a>Email<img
+                src="gmail.png"></a></button><span class="alert">Email copiado!</span>
+        </article>
+        <img src="Typing.gif" class="typing">
+
+
+      </section>
+      <h1 id="h1projetos">My Projects.</h1>
+      <section class="projetos tamanho init-hidden">
+        <div class="projetos_display">
+          <div class="projeto">
+            <a href="https://github.com/kalsol17/Bro-2-simple-projects.git" target="_blank">
+              <img src="calculadora.png">
+              <span class="desc">
+                <h1>Digital Calculator</h1>
+                <p>Made with HTML, CSS, and JavaScript</p>
+              </span>
+            </a>
+          </div>
+          <div class="projeto">
+            <a href="/" target="_blank">
+              <img src="jogodavelha.png">
+              <span class="desc">
+                <h1>Tic-Tac-Toe</h1>
+                <p>Frontend made with HTML and CSS</p>
+                <p>Backend made with JavaScript</p>
+              </span>
+            </a>
+          </div>
+          <div class="projeto">
+            <a href="https://github.com/kalsol17/Apple-website.git" target="_blank">
+              <img src="apple.jpeg">
+              <span class="desc">
+                <h1>Apple-website.</h1>  
+                <p>Made with HTML, CSS.</p>  
+                <p>Single page.</p>  
+                <p>Responsiveness - WIP</p>                  
+              </span>
+            </a>
+          </div>
+        </div>
+
+        <!-- <div class="projetos_display verMais">
+          <div class="projeto">
+            <a href="https://projetinho-raposas.fabiojunior18.repl.co/" target="_blank">
+              <img src="foxes.png">
+              <span class="desc">
+                <h1>Site sobre Raposas</h1>
+                <p>Feito com HTML, CSS e JavaScript</p>
+                <p>Uma grande amostra do meu front-end!</p>
+              </span>
+            </a>
+          </div>
+          <div class="projeto">
+            <a href="https://projetinho-to-do-list.fabiojunior18.repl.co/" target="_blank">
+              <img src="todolist.png">
+              <span class="desc">
+                <h1>Lista de afazeres</h1>
+                <p>Front feito com HTML CSS</p>
+                <p>C.R.U.D</p>
+                <p>Backend feito com JS</p>
+              </span>
+            </a>
+          </div>
+          <div class="projeto">
+            <a href="https://consumo-de-apis-com-fetch.fabiojunior18.repl.co/" target="_blank">
+              <img src="usodeapi.png">
+              <span class="desc">
+                <h1>Consumo de apis com fetch</h1>
+                <p>Api de cotação de moedas (awesomeapi)</p>
+                <p>Api de verificação de cep (viacep)</p>
+              </span>
+            </a>
+          </div>
+        </div>
+         -->
+         <button onclick="mostrar()" class="maisProjetos">More Projects</button>
+        <span>
+          <!-- <button><a href="https://replit.com/@FabioJunior18" target="_blank">Replit</a></button> -->
+          <button><a href="https://github.com/kalsol17" target="_blank">Github</a></button>
+        </span>
+
+
+      </section>
+      <h1 id="h1habilidades">My Skills</h1>
+      <section class="habilidades tamanho init-hidden">
+
+
+        <div id="htmlcss">
+          <div class="habilidades-card">
+            <div class="card">
+              <div class="cover closed back">
+                <div class="card_content">
+                  <img src="htmlcss-removebg-preview.png">
+                </div>
+              </div>
+              <div class="cover open">
+                <div class="card_text">
+                  <span class="title">HTML e CSS</span>
+                  <div class="text_habilidades-card">
+                    <p>I was introduced to the language in college, and ever since,
+                      I’ve been loving the journey.
+                      Seeing my progress and the results
+                       I achieve keeps me excited to learn and improve every day!</p>              
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="c">
+          <div class="habilidades-card">
+            <div class="card">
+              <div class="cover closed back">
+                <div class="card_content">
+                  <img src="flutter.png">
+                </div>
+              </div>
+              <div class="cover open">
+                <div class="card_text">
+                  <span class="title">Flutter</span>
+                  <div class="text_habilidades-card">
+                    <p>One of the languages I explored early in my programming journey,
+                      and I quickly got comfortable with it.
+                      Mastering its logic strengthened my 
+                      problem-solving skills and gave me a
+                      solid foundation for tackling more complex projects.
+                   </p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div id="javascript">
+          <div class="habilidades-card">
+            <div class="card">
+              <div class="cover closed back">
+                <div class="card_content">
+                  <img src="js.png">
+                </div>
+              </div>
+              <div class="cover open">
+                <div class="card_text">
+                  <span class="title">JavaScript</span>
+                  <div class="text_habilidades-card">
+                      <p>I started studying on my own and have been adapting 
+                      very well to the technology. 
+                      Now, by using it, I am learning frameworks
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- <div id="python">
+          <div class="habilidades-card">
+            <div class="card">
+              <div class="cover closed back">
+                <div class="card_content">
+                  <img src="python-removebg-preview.png">
+                </div>
+              </div>
+              <div class="cover open">
+                <div class="card_text">
+                  <span class="title">Python</span>
+                  <div class="text_habilidades-card">
+                    <p>Após ser apresentado a linguagem C passei a me interessar pela área back end e então fiz
+                      cursos de
+                      python.</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+      </section>
+
+
+    </main>
+
+
+    <footer class="footer">
+      <p>All rights reserved Kaleab Solomon 2025. ©</p>
+      <p>Contact email:kaleab24gebreselassie@gmail.com.</p> 
+      <div class="icones">
+
+        <!-- <a target="_blank" href="https://replit.com/@FabioJunior18"><img src="replit.png" class="icon"></a> -->
+        <a target="_blank"
+          href="http://linkedin.com/in/kaleab-s
+          olomon-89ba6a32b"><img
+            src="linkedin.png" class="icon"></a>
+        <a target="_blank" href="https://github.com/kalsol17"><img src="github-sign.png" class="icon"></a>
+
+        <!-- <a href="Fábio_Júnior_Curriculo.pdf" target="_blank">
+          <img class="icon curriculo" src="curriculo-e-cv.png"> 
+        </a>-->
+      </div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
